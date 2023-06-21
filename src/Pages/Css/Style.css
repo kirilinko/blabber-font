@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+.font-text{
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.title {
+    margin-top: 70px;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.under-title{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.form-field{
+ background: #dbdddf;
+ width: 70%;
+}
+
+.from-btn-b{
+  background: #0061A6;
+  color: white;
+  width: 70%;
+}
+
+.from-btn-b:hover{
+    background: #1797f1;
+    color: white; 
+}
+
+.box-container-left{
+    padding-left: 10%;
+}
+
+.nav-logo{
+    padding-left: 4%;
+}
+
+.list-contact{
+    width: 75%;
+}
+
+.side-bar{
+    border-right: 2px solid #cbcaca;
+    font-weight: 600;
+}
+
+.cicle-field{
+    border-radius: 20px;
+    background: #efeff0;
+    width: 70%;
+    height: 50px;
+}
+
+.btn-side-bar{
+    background: #E8E8EB;
+    color: #0061A6;
+    margin: 10px 2px 10px 2px;
+    padding: 12px 12px 12px 12px;
+    border-radius: 10px;
+    width: 50px;
+    border:none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+ 
+}
+
+.title-contact{
+    font-weight: bold;
+    margin-left: 5%;
+    font-size: 22px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
