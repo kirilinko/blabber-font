@@ -1,11 +1,13 @@
 import React from 'react';
-import logo from '../../Ressources/Logo.png';
-import locker from '../../Ressources/lock-lock.png';
-import fooz from '../../Ressources/fooz.png';
-import '../Css/Style.css'
+import logo from '../assets/Logo.png';
+import locker from '../assets/lock-lock.png';
+import fooz from '../assets/fooz.png';
+
 
 class Redefinition extends React.Component {
     render() {
+      require('../assets/css/bootstrap.min.css')
+      require('../assets/css/Style_groupe7.css')
         return (
           <div className='container font-text mt-4 mb-4'>
               <div className=''><img src={logo} /></div>
