@@ -13,9 +13,9 @@ const AccueilDash = () => {
                 <Sidebar />
                     <div className="h-screen flex-1 p-7">
                     <Contact_blocked/>
-                        {/* <h1 className="text-2xl font-semibold ">Messages</h1> */}
                         <Routes>        
                             <Route path="/Dashboard/Contacts/bloquer" element={<Contact_blocked/>} />
+                            <Route path="/Dashboard/Contacts/:id/Profil" element={<Profil/>} />
                         </Routes>
                     </div>
                 </div>
